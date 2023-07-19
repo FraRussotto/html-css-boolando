@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  max-width: 90%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
@@ -52,7 +52,7 @@ ul{
   width: 20%;
 }
 
-.account li{
+.shop li{
   padding-left: 10px;
 }
 
@@ -66,7 +66,7 @@ ul{
 
 .card{
   padding-bottom: 40px;
-  flex-basis: 650px;
+  flex-basis: 550px;
 }
 
 .card img{
@@ -87,4 +87,47 @@ ul{
 
 .infocard .oldprice{
   text-decoration: line-through;
+}
+
+/* Footer */
+
+.bottombar{
+  background-color: #1a1a1a;
+}
+
+.bottom{
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  height: 80px;
+  color: white;
+}
+
+.social{
+color: white;
+}
+
+.social span{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.info h3{
+  font-size: 1rem;
+}
+.link a{
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.link li{
+  padding-right: 10px;
+}
+
+.account li{
+  margin-right: 10px;
+}
+
+.social span{
+  font-size: 0.7rem;
 }
