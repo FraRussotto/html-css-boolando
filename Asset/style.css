@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 80%;
+  max-width: 90%;
   margin: 0 auto;
 }
 
@@ -58,21 +58,33 @@ ul{
 
 /* Card Container */
 .card-container{
-	flex-wrap: wrap;
-	align-content: start;
+  flex-wrap: wrap;
   justify-content: space-between;
-  background-color: #ff6900;
+	align-content: start;
   margin: 50px auto;
 }
 
 .card{
-  /* display: flex; */
-  background-color: brown;
-  flex-basis: 32%;
   padding-bottom: 40px;
+  flex-basis: 650px;
 }
 
 .card img{
   width: 100%;
-  min-width: 60%;
+  height: auto;
+  object-fit: cover;
+}
+.infocard h4{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.infocard .price{
+  color: red;
+  font-weight: bold;
+  margin-right: 4px;
+
+}
+
+.infocard .oldprice{
+  text-decoration: line-through;
 }
