@@ -9,7 +9,7 @@ body{
 }
 
 .container{
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -54,4 +54,25 @@ ul{
 
 .account li{
   padding-left: 10px;
+}
+
+/* Card Container */
+.card-container{
+	flex-wrap: wrap;
+	align-content: start;
+  justify-content: space-between;
+  background-color: #ff6900;
+  margin: 50px auto;
+}
+
+.card{
+  /* display: flex; */
+  background-color: brown;
+  flex-basis: 32%;
+  padding-bottom: 40px;
+}
+
+.card img{
+  width: 100%;
+  min-width: 60%;
 }
