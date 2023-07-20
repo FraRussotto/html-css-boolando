@@ -90,10 +90,17 @@ ul{
   height: 30px;
 }
 
+.shop{
+  justify-content: end;
+}
+
 .shop li{
   padding-left: 10px;
 }
 
+.genere, .shop{
+  width: 30%;
+}
 /* Card Container */
 .card-container{
   flex-wrap: wrap;
