@@ -66,6 +66,9 @@ ul{
   font-weight: bold;
 }
 
+.topbar a:hover{
+  text-decoration: underline;
+}
 .genere li{
   padding-right: 10px;
 }
@@ -74,7 +77,7 @@ ul{
   justify-content: space-between;
   align-items: center;
   height: 70px;
-  padding: 20px 0;
+  padding: 20px 10px;
   color: white;
 }
 
@@ -94,20 +97,23 @@ ul{
 /* Card Container */
 .card-container{
   flex-wrap: wrap;
-  justify-content: space-between;
-	align-content: start;
   margin-top: 120px;
 }
 
 .card{
+width: calc(100% / 3);
+min-width: 250px;
+padding: 0 10px;
+padding-bottom: 40px;
+}
+
+.card-image{
   position: relative;
-  flex-basis: 550px;
-  padding-bottom: 40px;
 }
 
 .badge{
   position: absolute;
-  bottom: 150px; 
+  bottom: 20px; 
 }
 
 .heart:hover{
@@ -117,9 +123,19 @@ ul{
 
 .card img{
   width: 100%;
-  height: auto;
-  object-fit: cover;
 }
+
+.secondary-img{
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+}
+
+.card-image:hover .secondary-img{
+  display: block;
+}
+
 .infocard h4{
   font-size: 1.2rem;
   text-transform: uppercase;
